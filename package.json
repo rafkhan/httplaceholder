@@ -1,0 +1,31 @@
+{
+  "name": "httplaceholder",
+  "version": "0.0.5",
+  "description": "Node.js server that renders PNGs of varying sizes",
+  "directories": {
+    "lib": "./lib",
+    "bin": "./bin"
+  },
+  "main": "./lib/app.js",
+  "bin": {
+    "httplace": "./bin/httplace.js"
+  },
+  "dependencies": {
+     "canvas": ">=0.13.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafkhan/httplaceholder"
+  },
+  "keywords": [
+    "png",
+    "image",
+    "render",
+    ""
+  ],
+  "author": "Rafael Khan",
+  "license": "BSD"
+}
