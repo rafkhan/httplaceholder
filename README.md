@@ -14,6 +14,10 @@ Foreground and background are optional. They're there to serve as default values
 ##Get Your Free PNG!
 Get the image by making a request to:
 
+`http://localhost:port/w/h/fg/bg`
+
+OR
+
 `http://localhost:port?w=x&h=y&fg=c1&bg=c2`
 <table>
  <tr>
